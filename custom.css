@@ -1,0 +1,49 @@
+body {
+  min-height: 200vh;
+}
+
+.im{
+  height:50%;
+  width:50%;
+}
+span.logo {
+  padding-left:50px;
+  font-weight: 200;
+  font-style: italic;
+  font-family: inherit;
+}
+.brand-logo img {
+  color: white;
+  padding: 5px;
+}
+.col{
+  font-family:serif;
+}
+.icon {
+  font-size: 60px;
+  padding-top: 30px;
+}
+.thin-text {
+  font-weight: 300;
+  background:#424242;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section-header {
+  padding-left: : 200px;
+  align-content: center;
+  font-weight: 300;
+}
+
+.card-title a{
+  color:white;
+}
+.card-content p {
+  padding-bottom: 5px;
+}
+
+.cta {
+  font-weight: 300;
+  text-shadow: 2px 2px black;
+}

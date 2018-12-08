@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <title>My Rad Quote Generator</title>
+
+    <link rel="stylesheet" type="text/css" href="1.css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <style>
+
+              .button {
+              border-radius: 4px;
+              background-color: #f4511e;
+              border: none;
+              color: #FFFFFF;
+              text-align: center;
+              font-size: 28px;
+              padding: 20px;
+              width: 200px;
+              transition: all 0.5s;
+              cursor: pointer;
+              margin: 5px;
+              }
+
+              .button span {
+              cursor: pointer;
+              display: inline-block;
+              position: relative;
+              transition: 0.5s;
+              }
+
+              .button span:after {
+              content: '\00bb';
+              position: absolute;
+              opacity: 0;
+              top: 0;
+              right: -20px;
+              transition: 0.5s;
+              }
+
+              .button:hover span {
+              padding-right: 25px;
+              }
+
+              .button:hover span:after {
+              opacity: 1;
+              right: 0;
+              }
+              img {
+                  display: inline-block;
+                  align:center;
+              }
+
+        /*  a gray background color and some padding to the footer */
+        footer {
+          background-color: #f2f2f2;
+          padding: 25px;
+        }
+
+
+      </style>
+
+  </head>
+  <body>
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" style="padding-left:30px"href="index.html"><i>Symphony</i></a>
+    </div>
+    <div class="nav navbar-nav navbar-right" id="myNavbar">
+      <ul class="nav navbar-nav" align="right">
+        <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="pop.html">Pop</a></li>
+
+          <li><a href="dance.html">Dance beats</a></li>
+          <li><a href="indian.html">Indian</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+          <div class="jumbotron">
+          <div class="container text-center">
+              <h1>Find your Music Quotation...</h1>
+
+              <!-- Center is added for button placement -->
+              <center>
+                <button class="button"onclick="newQuote()"><span>Trigger ;) </span></button></center>
+
+                    <div class="jumbotron">
+                    <div class="container text-center">
+                      <p>Some text that represents "Me"...</p>
+                    </div>
+
+                      <div id="quoteDisplay">
+                        <!-- Quotes will display here -->
+                      </div>
+                    </div>
+                   </div>
+          </div>
+         </div>
+         <div class="row" style="background-color:black;">
+               <div class="col-sm-3">
+                 <div class="well" >
+
+                   <h4><b><a href="international.html">International Music</a></b></h4>
+                   <img src="C:\Users\user\Desktop\Website1\int.jpg" height="50" width="50">
+                   <p>Boo..!</p>
+                 </div>
+               </div>
+               <div class="col-sm-3">
+                 <div class="well">
+
+                   <h4><b><a href="indianmusic.html">Indian Music</a> </b></h4>
+                   <img src="C:\Users\user\Desktop\Website1\india.png" height="50" width="50">
+                   <p>Boo..!</p>
+                 </div>
+               </div>
+               <div class="col-sm-3">
+                 <div class="well">
+                   <h4 ><b><a href="bands.html">The Musical Bands</a> </b></h4>
+                   <img src="images\band.jpg" height="50" width="50">
+                   <p>Yahoo !!</p>
+                 </div>
+               </div>
+               <div class="col-sm-3">
+                 <div class="well">
+                   <h4><b><a href="dance.html">Bounce</a></b></h4>
+                   <img src="C:\Users\user\Desktop\Website1\dance.png" height="50" width="50">
+                   <p>1 2 3 4 Get on the Dance Floor!</p>
+                 </div>
+               </div>
+             </div>
+
+
+    <script src="quotes.js"></script>
+  </body>
+</html>
